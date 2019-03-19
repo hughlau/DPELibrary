@@ -12,7 +12,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Depl.Front\Depl.Front.csproj" />
+    <ProjectReference Include="..\Admin\Admin.csproj" />
+    <ProjectReference Include="..\Depl.Front\Hub.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\" />
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
 </Project>

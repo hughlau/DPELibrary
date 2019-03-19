@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace Depl.Hub.Controllers
+namespace Admin.Controllers
 {
     public class HomeController : Controller
     {
@@ -14,11 +14,6 @@ namespace Depl.Hub.Controllers
         public IActionResult Index()
         {
             return View();
-        }
-
-        public JsonResult Get()
-        {
-            return new JsonResult("wu");
         }
     }
 }

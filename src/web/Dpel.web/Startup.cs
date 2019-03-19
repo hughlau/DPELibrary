@@ -28,6 +28,7 @@ namespace Dpel.web
 
             app.UseStaticFiles();
             app.UseOrchardCore();
+            
         }
     }
 }

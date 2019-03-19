@@ -1,13 +1,21 @@
-using System;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using OrchardCore.Modules;
+using System;
 
-namespace OrchardCore.Mvc.HelloWorld
+/****************************************************************
+*   Author：L
+*   Time：2019/3/19 16:15:43
+*   FrameVersion：2.0
+*   Description：
+*
+*****************************************************************/
+namespace Admin
 {
-    public class Startup : StartupBase
+    public partial class Startup:StartupBase
     {
+
         private readonly IConfiguration _configuration;
 
         public Startup(IConfiguration configuration)
@@ -21,11 +29,11 @@ namespace OrchardCore.Mvc.HelloWorld
             {
                 throw new Exception(":(");
             }
-            
+
             routes.MapAreaRoute
             (
-                name: "Home",
-                areaName: "Hub",
+                name: "adminHome",
+                areaName: "Admin",
                 template: "",
                 defaults: new { controller = "Home", action = "Index" }
             );

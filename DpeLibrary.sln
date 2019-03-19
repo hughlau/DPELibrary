@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dpel.web", "src\web\Dpel.web\Dpel.web.csproj", "{787C67AA-98E0-4064-BFC1-3C6A7C2FAE1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dpel.web", "src\web\Dpel.web\Dpel.web.csproj", "{787C67AA-98E0-4064-BFC1-3C6A7C2FAE1E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dpel.Modules", "Dpel.Modules", "{4C082DCA-F887-4C2D-839D-8B24A5AF50CE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dpel.Mvc", "Dpel.Mvc", "{E6C9F31C-6F55-4EF6-9E7E-2636818CBBEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Depl.Front", "src\web\Depl.Front\Depl.Front.csproj", "{78120686-9702-4F4E-AAEC-D93AF9495DB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hub", "src\web\Depl.Front\Hub.csproj", "{78120686-9702-4F4E-AAEC-D93AF9495DB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin", "src\web\Admin\Admin.csproj", "{39D5A558-3EDE-4F28-9453-91C6B43D24D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +27,17 @@ Global
 		{78120686-9702-4F4E-AAEC-D93AF9495DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78120686-9702-4F4E-AAEC-D93AF9495DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78120686-9702-4F4E-AAEC-D93AF9495DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39D5A558-3EDE-4F28-9453-91C6B43D24D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D5A558-3EDE-4F28-9453-91C6B43D24D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D5A558-3EDE-4F28-9453-91C6B43D24D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D5A558-3EDE-4F28-9453-91C6B43D24D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{78120686-9702-4F4E-AAEC-D93AF9495DB6} = {E6C9F31C-6F55-4EF6-9E7E-2636818CBBEE}
+		{39D5A558-3EDE-4F28-9453-91C6B43D24D7} = {E6C9F31C-6F55-4EF6-9E7E-2636818CBBEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8C55FAD-32A6-4D0B-AC6C-0385A2407C0B}
